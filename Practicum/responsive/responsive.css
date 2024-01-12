@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+@media only screen and (min-width: 1201px) {
+    /* Styles voor laptop/pc */
+    body {
+      background-color: grey; 
+    }
+  }
+
+  @media only screen and (min-width: 413px) and (max-width: 415px) {
+    /* Styles voor Apple iPhone 11 */
+    body {
+      background-color: #ffcccb;
+    }
+  }
+
+  @media only screen and (min-width: 767px) and (max-width: 769px) {
+    /* Styles voor Apple iPad Mini */
+    body {
+      background-color: #aeeeee; 
+    }
+  }
+  

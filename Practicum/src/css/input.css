@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Helvetica+Neue');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*-------------------------------------------------------------- # Base Section Start--------------------------------------------------------------*/
+:root {
+  --main-bg-color: #000;
+  --accent-bg-color: #fff;
+}
+
+html * {
+  text-align: center;
+  background: var(--main-bg-color);
+  color: var(--accent-bg-color);
+  font-size: 16px;
+}
+
+html body {
+  font-family: 'Helvetica Neue', sans-serif !important;
+  display: block;
+  margin: 0px;
+  height: 100vh;
+}
+
+.section-container {
+  margin: auto;
+  padding: 2vh 5vw;
+}
+
+@media (min-width: 1200px) {
+  .section-container {
+    padding: 2% 25%;
+  }
+
+  .section-container-desk-wide {
+    padding: 2% 10% !important;
+  }
+}
+
+.air {
+  height: min(16vh, 4rem);
+}
+
+html .h-screen {
+  height: clamp(85dvh, 85dvh, 250vh);
+}
+
+/* General Section */
+
+html .hidden {
+  display: none !important;
+}
+
+@media (min-width: 1200px) {
+  .mobile-only {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .desktop-only {
+    display: none !important;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2 {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: min(7.5vw, 2.5rem);
+  margin: min(2vh, 0.5rem) 0;
+  font-weight: 800;
+}
+
+h3,
+h4 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: min(6vw, 2rem);
+  font-weight: 600;
+}
+
+h5,
+h6,
+p {
+  font-size: min(3vw, 1rem);
+  text-align: left;
+  font-weight: 400;
+  margin-top: min(3vw, 1rem);
+}
+
+h1,
+h3,
+h5,
+p {
+  font-style: normal;
+}
+
+h2,
+h4,
+h6 {
+  font-style: normal;
+  font-weight: 600;
+}
+
+/*-------------------------------------------------------------- # Base Section End--------------------------------------------------------------*/
+
+/*-------------------------------------------------------------- # Supp Section Start --------------------------------------------------------------*/
+
+nav {
+  background-color: #111;
+  color: var(--accent-bg-color);
+  text-align: center;
+  padding: 15px;
+}
+
+nav a {
+  color: var(--accent-bg-color);
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #222;
+}
+
+
+form {
+max-width: 400px;
+margin: 20px auto;
+padding: 20px;
+border: 1px solid #222;
+border-radius: 5px;
+}
+
+label {
+display: block;
+margin-bottom: 8px;
+}
+
+input,
+textarea {
+width: 100%;
+padding: 8px;
+margin-bottom: 16px;
+box-sizing: border-box;
+border: var(--accent-bg-color) 1px solid;
+}
+
+button {
+color: var(--accent-bg-color);
+padding: 10px 15px;
+border: var(--accent-bg-color) 1px solid;
+cursor: pointer;
+}
+
+/*-------------------------------------------------------------- # Supp Section End--------------------------------------------------------------*/
+
+/*-------------------------------------------------------------- # Index Section Start --------------------------------------------------------------*/
+
+#index-main {
+}
+
+.img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: min(3vh, 1rem);
+  margin-bottom: min(3vh, 1rem);
+}
+
+/*-------------------------------------------------------------- # Index Section End--------------------------------------------------------------*/
