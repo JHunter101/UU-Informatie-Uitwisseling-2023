@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sans des Lunes - FW23|24</title>
+    <link
+      href="https://fonts.cdnfonts.com/css/sf-pro-display"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/gobold" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="dist/css/output.css" />
+    <script src="dist/src/ts/product-data.js"></script>
+    <script src="dist/src/ts/cart.js"></script>
+    <script src="dist/dep/fractal-api-v1.0.1/ts/basic.js"></script>
+  </head>
+  <body>
+    <nav id="nav-bar" class="">
+      <div class="left-section">
+        <div
+          class="menu-icon mobile-only"
+          onclick="toggle_elem('nav-bar-menu'), toggle_elem('nav-middle-section'), toggle_elem('nav-right-section')"
+        >
+          ☰
+        </div>
+        <div id="nav-bar-menu" class="desktop-only">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="search.html">Products</a>
+        </div>
+      </div>
+      <div id="nav-middle-section" class="logo-section">
+        <a
+          href="index.html"
+          style="
+            font-family: 'Gobold Thin', sans-serif !important;
+            font-size: min(4vw, 1.33rem);
+            letter-spacing: min(0.6vw, 0.2rem);
+          "
+          >SANS DES LUNES</a
+        >
+      </div>
+      <div id="nav-right-section" class="right-section">
+        <div id="cart-basket">
+          <div id="cart-size"></div>
+          <a href="cart.html"
+            ><ion-icon name="basket"></ion-icon
+            ><i class="fal fa-shopping-cart"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="air"></div>
+
+    <section id="cart" class="section-container fill-height">
+      <h1>Cart</h1>
+      <div id="cart-items"></div>
+      <div id="cart-total">
+        <h4 id="cart-total-text"></h4>
+      </div>
+      <div id="cart-checkout">
+        <button
+          id="cart-checkout-button"
+          class="btn-main"
+          onclick="location.href='pay.html'"
+        >
+          Checkout
+        </button>
+      </div>
+    </section>
+
+    <footer class="alt-section">
+      <h5>&copy; 2024 All rights reserved.</h5>
+
+      <nav class="nav-light">
+        <a href="res/pdf/Placeholder-PDF.pdf" target="_blank">Privacy Policy</a>
+        <a href="res/pdf/Placeholder-PDF.pdf" target="_blank">Use of Cookies</a>
+        <a href="res/pdf/Placeholder-PDF.pdf" target="_blank">Terms of Use</a>
+        <a href="res/pdf/Placeholder-PDF.pdf" target="_blank">Sales Terms</a>
+        <a href="res/pdf/Placeholder-PDF.pdf" target="_blank"
+          >Legal Information</a
+        >
+        <a href="res/pdf/Placeholder-PDF.pdf" target="_blank">Site Map</a>
+      </nav>
+    </footer>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+pid,vid,p-name,v-name,image-front,image-back,image-extra,image-worn,sizes,cost
+001,01,T-Shirt,Black,res/clothes/00101-front.webp,res/clothes/00101-back.webp,res/clothes/00101-extra.webp,res/clothes/00101-worn.webp,"XS,S,M,L,XL",£39.90
+001,02,T-Shirt,Creme,res/clothes/00102-front.webp,res/clothes/00102-back.webp,res/clothes/00102-extra.webp,res/clothes/00102-worn.webp,"XS,S,M,L,XL",£39.90
+002,01,Denim Jacket,Black,res/clothes/00201-front.webp,res/clothes/00201-back.webp,res/clothes/00201-extra.webp,res/clothes/00201-worn.webp,"S,M,L,XL, XXL",£119.90
+003,01,Jacket,Red,res/clothes/00301-front.webp,res/clothes/00301-back.webp,res/clothes/00301-extra.webp,res/clothes/00301-worn.webp,"S,M,L,XL, XXL",£149.90
+003,02,Jacket,Blue,res/clothes/00302-front.webp,res/clothes/00302-back.webp,res/clothes/00302-extra.webp,res/clothes/00302-worn.webp,"S,M,L,XL, XXL",£149.90
+003,03,Jacket,Green,res/clothes/00303-front.webp,res/clothes/00303-back.webp,res/clothes/00303-extra.webp,res/clothes/00303-worn.webp,"S,M,L,XL, XXL",£149.90
+003,04,Jacket,Creme,res/clothes/00304-front.webp,res/clothes/00304-back.webp,res/clothes/00304-extra.webp,res/clothes/00304-worn.webp,"S,M,L,XL, XXL",£149.90
+004,01,Jogging Pants,Black,res/clothes/00401-front.webp,res/clothes/00401-back.webp,res/clothes/00401-extra.webp,res/clothes/00401-worn.webp,"28-30,30-32,32-34,34-36,36-38,40-44,46-50,52-54,56-60,62-64",£79.90
+004,02,Jogging Pants,White,res/clothes/00402-front.webp,res/clothes/00402-back.webp,res/clothes/00402-extra.webp,res/clothes/00402-worn.webp,"28-30,30-32,32-34,34-36,36-38,40-44,46-50,52-54,56-60,62-64",£79.90
+004,03,Jogging Pants,Creme,res/clothes/00403-front.webp,res/clothes/00403-back.webp,res/clothes/00403-extra.webp,res/clothes/00403-worn.webp,"28-30,30-32,32-34,34-36,36-38,40-44,46-50,52-54,56-60,62-64",£79.90
+005,01,Cargo Pants,Black,res/clothes/00501-front.webp,res/clothes/00501-back.webp,res/clothes/00501-extra.webp,res/clothes/00501-worn.webp,"28-30,30-32,32-34,34-36,36-38,40-44,46-50,52-54,56-60,62-64",£59.90
+005,02,Cargo Pants,Creme,res/clothes/00502-front.webp,res/clothes/00502-back.webp,res/clothes/00502-extra.webp,res/clothes/00502-worn.webp,"28-30,30-32,32-34,34-36,36-38,40-44,46-50,52-54,56-60,62-64",£59.90
